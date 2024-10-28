@@ -1,0 +1,45 @@
+h1 {
+    color:darkmagenta;
+    text-align: center;
+    font-size: 80px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: blanchedalmond;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.menu-item {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    transition: transform 0.3s;
+    width: 100%;
+}
+
+.menu-item:hover {
+    transform: scale(0.9);
+}
+
+.menu-item img{
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
